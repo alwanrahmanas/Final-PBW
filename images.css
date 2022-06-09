@@ -1,0 +1,43 @@
+.container{
+
+   width: fit-content;
+   margin: 0px auto;
+   border: 4px solid black;
+   line-height: 0;
+   float: none;
+   overflow: auto ;
+   clear: left;
+   height: 655px;   
+
+}
+
+.jumbo{
+
+    width: 640px;
+    height: 480px;
+}
+
+
+.thumb{
+
+    width: 160px;
+    height: 110px;
+    line-height: 0;
+    float: inline-start;
+    margin-bottom: 20px;
+    margin-top: 0;
+    border: 4px solid black;
+    
+}
+
+.thumb:hover{
+
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.jumbo:hover{
+
+    cursor: pointer;
+}
+

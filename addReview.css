@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Grandstander:wght@100&family=Montserrat&family=Sofia&display=swap');
+        * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Grandstander','Poppins', sans-serif;
+    
+    color: black;
+    
+}
+
+body{
+    background: linear-gradient(-45deg, #e6ddda, #7a6a6a, #c7c2c1, #8c8b8b);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+        table textarea{
+            width: 100%;
+            border-radius: 20px;
+            
+            
+           
+        }
+        table .t1{
+            width: 100%;
+        }
+
+        table tr h1 .ha1{
+            text-align: center;
+            background-color: black;
+        }
+      #form textarea, #form input{
+            color: black;
+            text-decoration: none;
+            
+            width: 180px;
+            height: 30px;
+            margin-right: 0px;
+            padding-left: 0;
+            padding-right: 0;
+            float: inline-start;
+            margin-right: 10px;
+            border-radius: 15px;
+        }
+
+        #t{
+            width: auto;
+            text-align: center;
+            border: 2px solid black;
+            color: black;
+            font-size: 20px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            border-radius: 10px;
+            border-collapse: collapse;
+            margin-right: 15px;
+        }
+
+        #t tr td {
+            border: 2px solid black;
+            padding: 10px;
+            text-align: center;
+            font-size: 20px;
+            color: black;
+            width: auto;
+        }
+
+        #t tr th {
+            border: 2px solid black;
+            padding: 10px;
+            text-align: center;
+            font-size: 20px;
+            color: black;
+            width: auto;
+        }
+
+    #submit{
+        width: 100px;
+        height: 60px;
+       
+        float: inline-start;
+        margin-right: 10px;
+        border-radius: 15px;
+        border: 2px solid black;
+        color: black;
+        font-size: 20px;
+        padding: auto;
+        border-collapse: collapse;
+        margin-right: 15px;
+        margin-left: 15px;
+
+    }
+
+    .pojok{
+        float: inline-start;
+    
+    }
+     .logo {
+        margin-right: auto;
+        margin-top: 30px;
+        margin-left: 30px;
+        float: inline-start;
+        font-size: 25px;
+    }
+    
+    
+    nav .logo h3 a{
+         margin-top: 20px;
+        text-decoration: none;
+        color: white;
+    }
+    
+    .logo h3 a:hover{
+        color: #565552;
+    }
+    
+     #login{
+        margin-top: 50px;
+        font-size: 250px;
+    }
+    
+    #login:hover{
+        background-color: #565552;
+    }
+

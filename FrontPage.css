@@ -1,0 +1,276 @@
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Grandstander:wght@100&family=Montserrat&family=Sofia&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Grandstander','Poppins', sans-serif;
+    
+}
+
+
+
+nav {
+    background-color: rgb(76, 76, 76);
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    z-index: 10;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: center;
+    padding: 15px 40px; 
+    opacity: 0.9;
+    font-size: 15px;
+   
+}
+
+nav .logo {
+    margin-right: auto;
+}
+
+
+nav .logo h3 a{
+    text-decoration: none;
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between; /* The justify-content property aligns the flexible container's items when the items do not use all available space on the main-axis (horizontally). */
+    box-sizing: border-box;
+    border-radius: 17px;
+    list-style: none;
+    width: 450px;
+    padding-right: 80px;
+}
+
+nav ul li {
+    align-self:inherit /* The align-self property overrides the align-items property on the flex container. */
+}
+
+nav ul li a {
+    box-sizing: border-box;
+    color: white;
+    text-decoration: none;
+    font-weight: 550;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 15px;
+    
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    opacity: calc(0.8 - 0.1 * (100vw - 320px));
+    font-size: 17px;
+}
+
+.in {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    box-sizing: border-box;
+    text-align: center;
+    width: 85px;
+    padding: 2px 6px;
+}
+
+.in a{
+    margin-left: -6.4px;
+    padding: 5px 19px;
+    border-radius: 20px;
+    font-weight: 550;
+    text-decoration: none;
+}
+
+.io {
+    
+    width: 180px;
+}
+
+
+#login {
+    font-size: 15px;
+    color: white;
+}
+
+#login:hover {
+    text-decoration: underline;
+    font-size: 17px;
+}
+
+.io ul li {
+    position: absolute;
+    border-top: 4px solid  cyan;
+    padding: 6px 10px 10px;
+    background-color: rgb(76, 76, 76);
+    transform: translate(5px, 50px);
+    transition: 0.5s;
+    opacity: 0;
+}
+
+
+
+
+
+
+
+.home .penjelasan {
+    color: rgb(76, 76, 76);
+    text-align: center;
+    width: 80%;
+    margin:  auto;
+    margin-top: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+
+.home{
+    background-color:rgb(106, 101, 90);
+    margin-top: 10px;
+    opacity: 2;
+}
+
+.home .penjelasan h1 {
+    margin-bottom: 20px;
+    font-size: 3em;
+    color: black;
+}
+
+.home .penjelasan h3{
+    font-weight: 500;
+    font-size: x-large;
+    font-weight: bold;
+    color: black;
+}
+
+.home .penjelasan p {
+    font-weight: 500;
+    font-size: x-large;
+    font-weight: bold;
+    color: black;
+}
+
+.home .penjelasan a {
+    text-decoration: none;
+}
+
+
+
+.home .penjelasan .home .penjelasan a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.about {
+    color: rgb(76, 76, 76);
+    margin-right: 0;
+    margin-top: 50px;
+    background-color: rgb(240, 240, 240);
+    padding: 50px 50px;
+}
+
+.about .penjelasan{
+    margin-bottom: 20px;
+    font-size: 2em;
+    color: black;
+}
+ 
+.about .penjelasan p{
+    font-weight: 500;
+    font-size: x-large;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+
+.about .penjelasan h1{
+    text-align: center;
+    
+    color: black;
+}
+
+
+.gallery {
+    padding-bottom: 40px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.gallery h1 {
+    color: rgb(76, 76, 76);
+    font-size: 3em;
+    margin: 30px;
+}
+
+
+
+.list {
+    background-color: rgb(76, 76, 76);
+    padding: 20px 0 30px;
+    opacity: 0.9;
+    clear: both;
+    
+}
+
+.list h1 {
+    font-size: 3em;
+    text-align: center;
+    color: black;
+    margin-bottom: 40px;
+}
+
+.semualist {
+    
+    overflow: auto;
+}
+
+
+
+
+table{
+    
+   
+    border-collapse: collapse;
+    width: 100%;
+    color: black;
+    font-family: monospace;
+    font-size: 25px;
+    text-align: left;
+    margin-top: 50px;
+    padding: 5px;
+    align-self: center;
+    overflow: auto;
+
+}
+
+table td,th{
+
+    border: 1px solid black;
+    text-align: center;
+    overflow: auto;
+    padding: 8px;
+    
+}
+
+table .header-top1{
+
+    width: 20%;
+    height: 5px;
+}
+
+table .header-top2{
+
+    width: 30%;
+    height: 5px;
+}
+
+table .header-top3{
+
+    width: 50%;
+    height: 5px;
+}
+

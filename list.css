@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Grandstander:wght@100&family=Montserrat&family=Sofia&display=swap');
+* {
+box-sizing: border-box;
+margin: 0;
+
+font-family: 'Grandstander','Poppins', sans-serif;
+text-align: center;
+color: black;
+
+}
+
+
+body{
+    background: linear-gradient(-45deg, #e6ddda, #7a6a6a, #c7c2c1, #8c8b8b);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+nav .pojok{
+	
+	float: inline-start;
+
+}
+ .logo {
+    margin-right: auto;
+	margin-top: 30px;
+	margin-left: 15px;
+	float: inline-start;
+	font-size: 25px;
+}
+
+
+ .logo h3 a{
+	
+	float: inline-start;
+    margin-left: 15px;
+    color: white;
+}
+
+.logo h3 a:hover{
+	color: #565552;
+}
+
+ #login{
+	margin-top: 50px;
+	font-size: 25px;
+}
+
+#login:hover{
+	color: #565552;
+}
+
+form{
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 15px;
+    height: 15px;
+	display: inline-block;
+	
+}
+
+form input[type="text"]{
+   height: 40px;
+   width: auto;
+   border-radius: 18px;
+   margin-right: 20px;
+}
+
+#tab,th,td{
+	/* margin-top: 100px; */
+	width: auto;
+	height: auto;
+	overflow: visible;
+	text-align: center;
+	/* border: 5px solid black; */
+	color: black;
+	font-size: 20px;
+	padding: 15px;
+	border-radius: 30px;
+	border: 2px solid black;
+	border-collapse: collapse	;
+	
+    margin: 100px 50px 0;
+	
+}
+
+
+
+
+
+h1{
+	margin-top:20px;
+
+}
+

@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Grandstander:wght@100&family=Montserrat&family=Sofia&display=swap');
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+font-family: 'Grandstander','Poppins', sans-serif;
+text-align: center;
+
+
+}
+
+
+body{
+    background: linear-gradient(-45deg, #e6ddda, #7a6a6a, #c7c2c1, #8c8b8b);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+/* 
+.logo {
+    margin-right: auto;
+	margin-top: 30px;
+	margin-left: 30px;
+	float: inline-start;
+	font-size: 25px;
+} */
+
+
+/*  .logo h3 a{
+    text-decoration: none;
+    color: white;
+} */
+
+.logo h3 a:hover{
+	color: #565552;
+}
+table td a:hover{
+	color: #565552;
+}
+
+h3:hover{
+	color: #565552;
+}
+
+#fp{
+	text-decoration: none;
+    color: white;
+	
+	margin-right: auto;
+	margin-top: 30px;
+	margin-left: 30px;
+	
+	font-size: 25px;
+}
+
+
+
+#tab,th,td{
+	clear: left;
+	margin-top: 100px;
+	width: auto;
+	text-align: center;
+	border: 2px solid black;
+	color: black;
+	font-size: 20px;
+	padding: 15px;
+	border-radius: 10px;
+	margin: 100px 10px 0;
+	margin-top: 50px;
+	border-collapse: collapse	;
+	overflow: visible;
+}
+
+
+
+
+
